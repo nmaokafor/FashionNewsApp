@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Are you ready for some bombshell fashion updates?. Wink." />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/section"
+            style="@style/section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            tools:text="Fashion" />
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            tools:text="Oct 10, 2018" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/author"
+        style="@style/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Asoebi Bella" />
+
+</LinearLayout>
